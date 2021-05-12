@@ -1,0 +1,21 @@
+@import './variables';
+@import './header';
+
+
+body{
+  background-color:#264653;
+  color:$textColor;
+}
+
+
+.contact{
+  // @include flexCenter(row);
+  @extend header;
+  background-color:$primaryBtn;
+
+
+button {
+  color:$buttonText;
+  background: $primaryBtn;
+}
+}
