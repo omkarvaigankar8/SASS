@@ -1,0 +1,29 @@
+//Global style-sheet  where we import all other stylesheets
+
+//Variables
+@import "./variables/variables.scss";
+
+//Mixins
+
+@import "./mixins/mixins.scss";
+
+//Fonts
+@import "./fonts/fonts.scss";
+
+//Icon fonts
+@import "./icon-fonts/icon-fonts.scss";
+
+//Base
+@import "./base/base.scss";
+
+//Themes
+@import "./themes/themes.scss";
+
+//Pages
+@import "./pages/pages.scss";
+
+//Components
+@import "./components/components.scss";
+
+//Utilities
+@import "./utilities/utilities.scss";
